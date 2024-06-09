@@ -20,4 +20,10 @@ public class MainMenuController : MonoBehaviour
     public void PlayGame() {
         SceneManager.LoadScene(1);
     }
+    public void Map() {
+        SceneManager.LoadScene(2);
+    }
+    public void Back() {
+        SceneManager.LoadScene(0);
+    }
 }
